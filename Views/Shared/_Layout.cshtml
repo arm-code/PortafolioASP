@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Portafolio1</title>
+    
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <div>
+                    <li>arm_code</li>
+                </div>
+                <div>
+                   <li>projects</li>
+                    <li>blog</li>
+                    <li>contact me</li> 
+                </div>
+                
+                
+            </ul>
+        </nav>
+    </header>
+    <div class="main">
+        <main role="main">
+            @RenderBody()
+        </main>
+    </div>
+</body>
+</html>
