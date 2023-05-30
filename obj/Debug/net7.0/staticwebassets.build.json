@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "uMxr4bWOf9XBT+dXCoJl9+jZIMnXtdNwOGrWMRLFTww=",
+  "Hash": "BtHeR2Osn17udRxs5vexgXDFoEh2hEB9CCkvRvG2wvo=",
   "Source": "Portafolio1",
   "BasePath": "_content/Portafolio1",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\ARM\\projects\\Portafolio1\\wwwroot\\img\\profile.jpg",
+      "SourceId": "Portafolio1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ARM\\projects\\Portafolio1\\wwwroot\\",
+      "BasePath": "_content/Portafolio1",
+      "RelativePath": "img/profile.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\profile.jpg"
     },
     {
       "Identity": "C:\\ARM\\projects\\Portafolio1\\wwwroot\\js\\site.js",

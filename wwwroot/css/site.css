@@ -10,21 +10,19 @@
   --color-blue-higth: #152b5a;
   --color-black: #000000;
 }
-h1 {
+
+h1, h2 {
   font-family: 'IBM Plex Mono', monospace;
 }
 
-
 body{
   margin: 0;
-  
 }
 
 div div {
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 
 nav ul {
@@ -33,21 +31,33 @@ nav ul {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  margin-top: 0;
+  margin: 0;
+  padding: 0;
 }
 
-nav ul div {
-  box-sizing: border-box;
-  width: 50%;
+nav ul li:hover{
+  text-decoration: underline;
+}
+
+.nav-container-l{
+  width: 30%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+  padding-left: 5%;
 }
 
+.nav-container-r{
+  width: 70%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 5%;
+  padding-right: 5%; 
+}
 
 nav {
   color: var(--color-black);
   font-size: 25px;
-  height: 200px;
+  height: 100px;
   width: 100%;
   position: fixed;
   display: flex;
@@ -55,8 +65,9 @@ nav {
   align-items: center;
   font-family: 'IBM Plex Mono', monospace;
   background-color: white;
+  color: var(--color-blue-higth);
+  border-bottom: 1px solid var(--color-blue-ligth);
 }
-
 
 .page-1{
   display: flex;
@@ -65,13 +76,27 @@ nav {
   flex-direction: column;
   height: 100vh;
   background-color: var(--color-blue-ligth);
-  
+  color: var(--color-blue-higth);
 }
 
-.page-1 h1{
-  
+.page-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: white;
+  color: var(--color-blue-higth);
+}
+
+.page-1 h1, .page-2 h1{
   margin: 0;
 }
+
+.page-2 h1{
+  margin: 0 0 5% 0;
+}
+
 .img-container{
   width: 200px;
   height: 200px;
@@ -83,4 +108,67 @@ nav {
   border-radius: 50%;
 }
 
+
+/*
+  > Este container es parte de la pagina 2, donde se estan almacenando las imagenes
+    de los logotipos de las habilidades.
+*/
+.container{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+.logo-container{
+  width: 100px;
+  height: 100px;  
+  padding: 5% 5% 5% 0;
+}
+
+
+/*
+  > Como hacer girar un DIV desde su parte central
+*/
+.logo-container:hover{
+  animation: rotate 1s infinite;
+  transform-origin: center center;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.logo-container img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  
+}
+
+
+/*
+  > Codigo para simular que el texto se esta escribiendo infinitamente
+*/
+.typing-text{
+  overflow: hidden;
+  border-right: 0.15em solid #000;
+  white-space: nowrap;
+  margin: 0;
+  animation: typing 3s steps(40) infinite;
+}
+
+@keyframes typing{
+  from{
+    width: 0;
+  }
+  to{
+    width: 50%;
+  }
+}
 
