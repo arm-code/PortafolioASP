@@ -10,21 +10,22 @@
   --color-blue-higth: #152b5a;
   --color-black: #000000;
 }
-h1 {
+
+h1, h2 {
   font-family: 'IBM Plex Mono', monospace;
 }
 
 
-body{
+body {
   margin: 0;
-  
+
 }
 
 div div {
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
 }
 
 nav ul {
@@ -34,20 +35,28 @@ nav ul {
   align-items: center;
   width: 100%;
   margin-top: 0;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-nav ul div {
-  box-sizing: border-box;
-  width: 50%;
+.div-nav-left {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+  width: 30%;
+}
+
+.div-nav-right {
+  display: flex;
+  justify-content: flex-end;
+  width: 70%;
+  gap: 5%;
 }
 
 
 nav {
   color: var(--color-black);
   font-size: 25px;
-  height: 200px;
+  height: 100px;
   width: 100%;
   position: fixed;
   display: flex;
@@ -55,32 +64,62 @@ nav {
   align-items: center;
   font-family: 'IBM Plex Mono', monospace;
   background-color: white;
+  color: var(--color-blue-higth);
 }
 
 
-.page-1{
+.page-1 {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   height: 100vh;
   background-color: var(--color-blue-ligth);
-  
+  color: var(--color-blue-higth);
+  padding-top: 100px;
+  text-align: center;
 }
 
-.page-1 h1{
-  
+.page-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: var(--color-blue-higth);
+  color: var(--color-gris);
+  text-align: center;
+}
+
+.page-1 h1, .page-2 h1 {
+
   margin: 0;
 }
-.img-container{
+
+.img-container {
   width: 200px;
   height: 200px;
 }
 
-.img-container img{
+.img-container img {
   height: auto;
   width: 100%;
   border-radius: 50%;
 }
 
+.img-container-tech{
+  width: 100px;
+  height: 100px;
+}
+.img-container-tech img {
+  height: auto;
+  width: 100%;
+  border-radius: 50%;
+}
 
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+}

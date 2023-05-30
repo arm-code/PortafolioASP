@@ -1,32 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ARM\\projects\\Portafolio1\\Portafolio1.csproj": {}
+    "/Users/arm/Desktop/portfolios_ideas/PortafolioASP/Portafolio1.csproj": {}
   },
   "projects": {
-    "C:\\ARM\\projects\\Portafolio1\\Portafolio1.csproj": {
+    "/Users/arm/Desktop/portfolios_ideas/PortafolioASP/Portafolio1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ARM\\projects\\Portafolio1\\Portafolio1.csproj",
+        "projectUniqueName": "/Users/arm/Desktop/portfolios_ideas/PortafolioASP/Portafolio1.csproj",
         "projectName": "Portafolio1",
-        "projectPath": "C:\\ARM\\projects\\Portafolio1\\Portafolio1.csproj",
-        "packagesPath": "C:\\Users\\SISTEMAS\\.nuget\\packages\\",
-        "outputPath": "C:\\ARM\\projects\\Portafolio1\\obj\\",
+        "projectPath": "/Users/arm/Desktop/portfolios_ideas/PortafolioASP/Portafolio1.csproj",
+        "packagesPath": "/Users/arm/.nuget/packages/",
+        "outputPath": "/Users/arm/Desktop/portfolios_ideas/PortafolioASP/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\SISTEMAS\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/arm/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -37,16 +35,15 @@
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -58,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
         }
       }
     }
