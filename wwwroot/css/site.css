@@ -88,6 +88,27 @@ nav {
   background-color: white;
   color: var(--color-blue-higth);
 }
+.page-3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  height: 100vh;
+  background-color: var(--color-blue-ligth);
+  color: var(--color-blue-higth);
+}
+
+.page-4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  height: 100vh;
+  background-color: var(white);
+  color: var(--color-blue-higth);
+}
 
 .page-1 h1, .page-2 h1{
   margin: 0;
@@ -95,6 +116,10 @@ nav {
 
 .page-2 h1{
   margin: 0 0 5% 0;
+}
+
+.page-4 h1{
+  margin: 0;
 }
 
 .img-container{
@@ -114,17 +139,48 @@ nav {
     de los logotipos de las habilidades.
 */
 .container{
-  width: 50%;
+  width: 60%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-
+  
 }
 .logo-container{
   width: 100px;
   height: 100px;  
   padding: 5% 5% 5% 0;
 }
+
+.work-description{
+  width: 100px;
+  height: 100px;  
+  padding: 1.5em;
+  margin: 5%;
+  border: 1px solid var(--color-blue-higth);
+  transition: all 0.3s ease;
+}
+
+.work-description:hover{
+  background-color: var(--color-blue-higth);
+  color: white;
+  width: 400px;
+  height: 400px;
+}
+
+.work-description:hover .original-text{
+  display: none;
+}
+
+.work-description:hover .hover-text{
+  
+  display: block;
+}
+
+.hover-text{
+  display: none;
+}
+
+
 
 
 /*
